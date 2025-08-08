@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Comparador de Notebooks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Comparador de Notebooks</h1>
+
+  <div class="controls">
+    <div class="filter-section">
+      <label for="profile-select">Filtrar por Perfil:</label>
+      <select id="profile-select">
+        <option value="todos">Todos</option>
+        <option value="gamer">Gamer</option>
+        <option value="criador de conteúdo">Criador de Conteúdo</option>
+        <option value="programador">Programador</option>
+        <option value="analista de dados">Analista de Dados</option>
+        <option value="escritório">Escritório</option>
+        <option value="estudante">Estudante</option>
+        <option value="empresa de BI">Empresa de BI</option>
+        <option value="multitarefa">Multitarefa</option>
+        <option value="trabalho remoto">Trabalho Remoto</option>
+        <option value="uso casual">Uso Casual</option>
+        <option value="profissional">Profissional</option>
+      </select>
+    </div>
+
+    <div class="compare-section">
+      <label for="notebook-select-1">Notebook 1:</label>
+      <select id="notebook-select-1" class="notebook-select"></select>
+
+      <label for="notebook-select-2">Notebook 2:</label>
+      <select id="notebook-select-2" class="notebook-select"></select>
+
+      <label for="notebook-select-3">Notebook 3:</label>
+      <select id="notebook-select-3" class="notebook-select"></select>
+
+      <button id="compare-button">Comparar Selecionados</button>
+    </div>
+  </div>
+
+  <div id="notebooks-container" class="grid">
+  </div>
+
+  <div id="comparison-table-container" class="hidden">
+    <h2>Comparativo Detalhado</h2>
+    <table id="comparison-table">
+      <thead>
+        <tr id="table-header-row">
+          <th>Característica</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- Linhas de comparação serão  -->
+      </tbody>
+    </table>
+    <button id="back-to-list-button">Voltar para a Lista</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
