@@ -1,7 +1,7 @@
 [
   {
     "nome": "ASUS TUF A15 (RTX 2050, Ryzen 7)",
-    "imagem": "/img/asus.webp",
+    "imagem": "img/asus.webp",
     "descricao": "Notebook gamer com bom sistema de resfriamento, durável e com bom desempenho para jogos e edição de vídeo leve.",
     "processador": "AMD Ryzen 7 6800H",
     "ram": "16GB DDR5",
@@ -15,7 +15,7 @@
   },
   {
     "nome": "Lenovo LOQ-E (RTX 3050, i5 12ª)",
-    "imagem": "../img/loq.avif",
+    "imagem": "img/loq.avif",
     "descricao": "Notebook gamer intermediário com GPU superior e bom custo-benefício.",
     "processador": "Intel Core i5-12450H",
     "ram": "8GB DDR4",
@@ -29,7 +29,7 @@
   },
   {
     "nome": "Acer Aspire 5 (Ryzen 7 5700U, 16GB)",
-    "imagem": "../img/aspire.webp",
+    "imagem": "img/aspire.webp",
     "descricao": "Notebook para produtividade com ótimo desempenho multitarefa e bom custo-benefício.",
     "processador": "AMD Ryzen 7 5700U",
     "ram": "16GB DDR4",
@@ -43,7 +43,7 @@
   },
   {
     "nome": "Lenovo IdeaPad Slim 3 (i5 13ª, IPS)",
-    "imagem": "../img/ideapad.avif",
+    "imagem": "img/ideapad.avif",
     "descricao": "Notebook com tela IPS, leve, expansível e com desempenho decente para trabalho e estudos.",
     "processador": "Intel Core i5-1335U",
     "ram": "8GB DDR4",
@@ -57,7 +57,7 @@
   },
   {
     "nome": "VAIO FE16",
-    "imagem": "../img/vaio.webp",
+    "imagem": "img/vaio.webp",
     "descricao": "Modelo com construção elegante e bom desempenho para tarefas do dia a dia.",
     "processador": "Intel Core i7-1255U",
     "ram": "16GB DDR4",
@@ -71,7 +71,7 @@
   },
   {
     "nome": "Dell XPS 15",
-    "imagem": "../img/dell_xps.avif",
+    "imagem": "img/dell_xps.avif",
     "descricao": "Notebook premium para produtividade e criação de conteúdo, com tela de alta qualidade e desempenho robusto.",
     "processador": "Intel Core i7-13700H",
     "ram": "32GB DDR5",
@@ -85,7 +85,7 @@
   },
   {
     "nome": "MacBook Pro 14 (M2 Pro)",
-    "imagem": "../img/macbook_pro.jpg",
+    "imagem": "img/macbook_pro.jpg",
     "descricao": "Ideal para profissionais criativos, com desempenho superior e ecossistema Apple.",
     "processador": "Apple M2 Pro",
     "ram": "16GB Unificada",
@@ -98,4 +98,3 @@
     "perfil": ["criador de conteúdo", "programador", "empresa de BI", "profissional"]
   }
 ]
-
