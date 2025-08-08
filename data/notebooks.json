@@ -1,7 +1,7 @@
 [
   {
     "nome": "ASUS TUF A15 (RTX 2050, Ryzen 7)",
-    "imagem": "../img/asus.webp",
+    "imagem": "/img/asus.webp",
     "descricao": "Notebook gamer com bom sistema de resfriamento, durável e com bom desempenho para jogos e edição de vídeo leve.",
     "processador": "AMD Ryzen 7 6800H",
     "ram": "16GB DDR5",
@@ -98,3 +98,4 @@
     "perfil": ["criador de conteúdo", "programador", "empresa de BI", "profissional"]
   }
 ]
+
